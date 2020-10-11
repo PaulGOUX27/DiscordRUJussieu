@@ -9,6 +9,8 @@ from collections import defaultdict
 config = yaml.safe_load(open("config.yml"))
 token = config["token"]
 
+print(f'|{token}|')
+
 emojiDic = defaultdict(str)
 emojiDic.update(zip("pizza burger".split(), "🍕 🍔".split()))
 

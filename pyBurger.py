@@ -93,9 +93,10 @@ def getMenuCurrentDay():
 def getMenuCurrentWeek():
 	menu = makeRequest()
 	return menu.getCurrentWeek()	
-'''
-def main():
-	print(getMenuCurrentWeek()[5].display())
 
-main()
-'''
+
+# def main():
+# 	for i in getMenuCurrentWeek():
+# 		print(i.display())
+
+# main()
